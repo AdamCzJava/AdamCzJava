@@ -50,17 +50,17 @@ public class HotelRoom {
 	{
 		return roomType;
 	}
-	public void setroomAvailable (int presenta)	//method to set room availability 
+	public void setroomAvailable (int present)	//method to set room availability 
 	{
 		
 		boolean y = isOccupiated (roomAvailable);
-		if (y == true && presenta == 1) 
+		if (y == true && present == 1) 
 		{
 			System.out.println("The room can not be booked again");
 		}
 		else
 		{
-			roomAvailable = presenta;
+			roomAvailable = present;
 		}
 	}
 	public int getroomAvailable ()	//method to get room availability value

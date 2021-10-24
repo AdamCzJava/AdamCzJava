@@ -46,7 +46,8 @@ public class Rectangle {
 		
 		String w ="*";
 		
-		double z = (width -2) ;
+		double z = (width -2) ;//empty area within rectangle
+		
 		while(z > 0  ) {
 			 w = w + " ";
 			 z--;
